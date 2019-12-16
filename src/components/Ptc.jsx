@@ -1,0 +1,1 @@
+export const Ptc = ({normal}) => `${(normal * 100).toFixed(2)}`;

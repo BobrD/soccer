@@ -1,0 +1,1 @@
+export const Date = ({timestamp}) => new window.Date(timestamp).toISOString().split('T')[0]

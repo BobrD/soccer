@@ -1,0 +1,1 @@
+export const FixedNumber = ({number, fraction = 2}) => number.toFixed(fraction);
