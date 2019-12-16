@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "mkdir -p dist && cp src/index.html dist && webpack-dev-server"
+    "start": "mkdir -p dist && cp src/index.html dist && webpack-dev-server",
+    "build": "webpack -p"
   },
   "dependencies": {
     "@babel/core": "^7.7.5",

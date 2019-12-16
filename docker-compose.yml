@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  front_server:
+    build:
+      context: .
+      dockerfile: front_server.Dockerfile
+    ports:
+      - "8080:80"
+
+  bakend:
+    build:
+      context: .
+      dockerfile: backend.Dockerfile
+    ports:
+      - "8081:8081"
